@@ -51,7 +51,14 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="Controlador_ConsultarCuentasCSV.sequencediagram" />
     <None Include="cuentas.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controlador_ConsultarCuentasCSV.sequencediagram.layout">
+      <DependentUpon>Controlador_ConsultarCuentasCSV.sequencediagram</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

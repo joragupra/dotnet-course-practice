@@ -13,8 +13,7 @@ namespace Cliente
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Cuenta[] cuentas = Controlador.ConsultarCuentasCSV();
-            this.objGridView.DataSource = cuentas;
+            this.objGridView.DataSource = Controlador.ConsultarCuentasCSV();
             this.objGridView.DataBind();
         }
     }

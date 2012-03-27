@@ -11,8 +11,8 @@
         To learn more about ASP.NET visit <a href="http://www.asp.net" title="ASP.NET Website">www.asp.net</a>.
     </p>
     <p>
-        <asp:DataList ID="objDataList" runat="server">
-        </asp:DataList>
+        <asp:GridView ID="objGridView" runat="server">
+        </asp:GridView>
     </p>
     <p>
         You can also find <a href="http://go.microsoft.com/fwlink/?LinkID=152368&amp;clcid=0x409"

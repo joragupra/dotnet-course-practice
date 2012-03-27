@@ -14,8 +14,8 @@ namespace Cliente
         protected void Page_Load(object sender, EventArgs e)
         {
             Cuenta[] cuentas = Controlador.ConsultarCuentasCSV();
-            this.objDataList.DataSource = cuentas;
-            this.objDataList.DataBind();
+            this.objGridView.DataSource = cuentas;
+            this.objGridView.DataBind();
         }
     }
 }
